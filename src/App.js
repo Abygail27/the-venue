@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import './resources/styles.css';
+
 import Header from './components/header_footer/Header'; 
 import Featured from './components/featured';
 import VunueNfo from './components/vunueNfo';
 import Hightlight from './components/Highlights';
 import Pricing from './components/pricing';
+import Location from './components/location';
 class App extends Component {
   render () {
 
@@ -15,6 +17,7 @@ class App extends Component {
     <VunueNfo/>
     <Hightlight/>
     <Pricing/>
+    <Location/>
       </div>
     );
   }
